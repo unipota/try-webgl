@@ -28,7 +28,8 @@ module.exports = {
     contentBase: path.resolve(__dirname, './public'),
     inline: true,
     open: false,
-    port: 1234
+    port: 1234,
+    overlay: true
   },
   devtool: 'inline-source-map',
   plugins: [
